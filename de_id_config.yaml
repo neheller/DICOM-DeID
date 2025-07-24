@@ -1,6 +1,6 @@
 # config.yaml
-input_dir: "/mnt/isilon/dbhi_external_imaging/DeID/Anon70558"
-output_base_dir: "/mnt/isilon/dbhi_external_imaging/DeID/DeID_Study/"
-csv_output_manifest: "/mnt/isilon/dbhi_external_imaging/DeID/anonymization_log.csv"
-manifest_path: "/mnt/isilon/dbhi_external_imaging/DeID/ultrasoundtest.csv"
+input_dir: "/home/hellern/isilon/data/weaver_projects/request_176"
+output_base_dir: "/home/hellern/isilon/data/weaver_projects/request_176_deid"
+csv_output_manifest: "/home/hellern/isilon/data/weaver_projects/request_176_deid_log.csv"
+manifest_path: "/home/hellern/isilon/data/weaver_projects/request_176_deid_manifest.csv"
 redaction_mode: "Smart"

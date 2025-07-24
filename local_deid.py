@@ -86,7 +86,10 @@ def normalize_tag(tag_name):
 
 # --- Load Manifest ---
 manifest = pd.read_csv(manifest_path, encoding='ISO-8859-1')
-accession_map = dict(zip(manifest['accession_num'].astype(str), manifest['subject_id'].astype(str)))
+accession_map = dict(zip(
+    manifest['accession_num'].astype(str),
+    manifest['subject_id'].astype(str)
+))
 
 # --- UID mapping for accessions and folder names ---
 accession_uid_map = {}
