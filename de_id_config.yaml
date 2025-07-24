@@ -1,0 +1,6 @@
+# config.yaml
+input_dir: "/mnt/isilon/dbhi_external_imaging/DeID/Anon70558"
+output_base_dir: "/mnt/isilon/dbhi_external_imaging/DeID/DeID_Study/"
+csv_output_manifest: "/mnt/isilon/dbhi_external_imaging/DeID/anonymization_log.csv"
+manifest_path: "/mnt/isilon/dbhi_external_imaging/DeID/ultrasoundtest.csv"
+redaction_mode: "Smart"
