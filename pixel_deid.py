@@ -8,7 +8,7 @@ from pydicom.filewriter import dcmwrite
 class DicomPixelRedactor:
     def __init__(self, redaction_mode="Full"):
         self.redaction_mode = redaction_mode
-        self.reader = easyocr.Reader(['en'], gpu=False)
+        self.reader = easyocr.Reader(['en'], gpu=True)
         self.keywords = [
             'right', 'left', 'rt', 'lt', 'rk', 'lk', 'kidney', 'bladder',
             'sagittal', 'sag', 'transverse', 'trans', 'prone'
