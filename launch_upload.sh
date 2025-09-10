@@ -11,7 +11,7 @@
 
 
 python3 /home/hellern/isilon/code/ccf/DICOM-DeID/upload_s3.py \
-    /home/hellern/isilon/data/weaver_projects/request_176_deid_v2_zipped \
+    /home/hellern/isilon/data/weaver_projects/request_176_deid_v2_zipped_tarred \
     s3://myawsmisc/ccf_us_deid/
 
 
